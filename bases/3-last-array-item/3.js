@@ -6,6 +6,7 @@ function test() {
 	const tableau = ['Hello world', 'this is javascript', 'third element', 'last one'];
 
 	// votre code ici
+	return tableau[3];
 }
 
 module.exports = test;
