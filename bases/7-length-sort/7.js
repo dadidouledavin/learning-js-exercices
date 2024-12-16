@@ -6,6 +6,7 @@ function test() {
 	const tableau = ['formation', 'javascript', 'pause déjeuné'];
 
 	// votre code ici
+	return tableau.sort((a, b) => b.length - a.length);
 }
 
 module.exports = test;

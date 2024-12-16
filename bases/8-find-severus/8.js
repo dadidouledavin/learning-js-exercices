@@ -6,6 +6,7 @@ function test() {
 	const tableau = ['Hermione', 'Harry', 'Ron', 'Severus'];
 
 	// votre code ici
+	return tableau.indexOf('Severus');
 }
 
 module.exports = test;
