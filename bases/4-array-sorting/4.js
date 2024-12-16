@@ -6,6 +6,7 @@ function test() {
 	const tableau = [2, 4, 5, 3, 1];
 
 	// votre code ici
+	return tableau.sort((a, b) => a - b);
 }
 
 module.exports = test;
