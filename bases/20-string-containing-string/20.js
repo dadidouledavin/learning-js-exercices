@@ -9,7 +9,11 @@ function test() {
 		'De toutes façons, les réunions de la Table Ronde c’est deux fois par mois. Donc, si le mec il dit après-demain à partir de dans deux jours, suivant s’il le dit à la fin du mois, ça reporte.';
 	const ARechercher1 = 'Table Ronde';
 
+	function recherche(base, search) {
+		return base.includes(search);
+	}
 	// votre code ici
+	return recherche(base1, ARechercher1);
 }
 
 module.exports = test;

@@ -14,6 +14,7 @@ function test() {
 	};
 
 	// votre code ici
+	return Object.keys(obj);
 }
 
 module.exports = test;

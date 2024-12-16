@@ -20,6 +20,8 @@ function test() {
 	};
 
 	// votre code ici
+	delete obj.valeur;
+	return obj;
 }
 
 module.exports = test;

@@ -24,6 +24,11 @@ function test() {
 	];
 
 	// votre code ici
+	function recup (auteurs) {
+		return auteurs.filter((auteur) => !auteur.readingStatus) . auteurs.map((auteur) => auteur.readingStatus);
+	}
+
+	return recup(library);
 }
 
 module.exports = test;

@@ -5,6 +5,8 @@ function test() {
 	// returnez ensuite la propriété valeur de cet élément
 	// Celui ci devrait vous renvoyer "3"
 	// votre code ici
+	const objet = { valeur : 3};
+	return objet.valeur;
 }
 
 module.exports = test;

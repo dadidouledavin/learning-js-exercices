@@ -11,6 +11,9 @@ function test() {
 	};
 
 	// votre code ici
+	obj.valeur = "hello world";
+	obj['valeur'] = "hello world"
+	return obj;
 }
 
 module.exports = test;

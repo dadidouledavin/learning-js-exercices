@@ -16,6 +16,25 @@ function test() {
 	// indice il faudra retouner la fonction calc comme ceci : return calc; Sans quoi, les tests ne pourront pas passer. (Je viens tester les différentes fonctionnalités voir si votre code répond bien à celles ci)
 	// C'est ce qui s'appelle faire passer une référence, de cette manière, je peux utiliser votre fonction dans mon code !
 	// votre code ici
+	function calc (a, b, op) {
+
+		switch (op) {
+			case '+':
+				return a + b;
+			case '-':
+				return a - b;
+			case '*':
+				return a * b;
+			case '/': {
+				if(b !== 0)
+					return a / b;
+				else
+					return Infinity ;
+				}
+		}
+	}
+
+	return calc;
 }
 
 module.exports = test;

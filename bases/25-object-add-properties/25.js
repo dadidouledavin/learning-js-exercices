@@ -8,8 +8,11 @@ function test() {
 	const obj = {
 		valeur: 'hello world',
 	};
-
 	// votre code ici
+	obj.name = 'le javascript';
+	obj['name'] = 'le javascript';
+	return obj;
+
 }
 
 module.exports = test;

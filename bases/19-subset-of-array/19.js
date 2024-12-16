@@ -15,7 +15,11 @@ function test() {
 	];
 	const elementNumber = 6;
 
+	function caca(mot) {
+		return mot.slice(0, elementNumber);
+	}
 	// votre code ici
+	return caca(tableau);
 }
 
 module.exports = test;

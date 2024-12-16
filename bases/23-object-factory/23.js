@@ -11,6 +11,14 @@ function test() {
 	const nom = 'hephaistos';
 
 	// votre code ici
+	function objet(valeur, nom) {
+		return {
+		valeur : valeur,
+		nom : nom,
+		};
+	}
+
+	return objet(valeur, nom);
 }
 
 module.exports = test;

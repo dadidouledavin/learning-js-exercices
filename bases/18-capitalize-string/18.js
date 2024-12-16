@@ -4,9 +4,14 @@ function test() {
 	// Créez une fonction permettant de mettre la première lettre de chaque mot en majuscule
 	// votre programme devrait retourner "The Quick Brown Fox"
 	const phrase = 'the quick brown fox';
+	function firstletter(str) {
+		return str
+			.split(' ')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+			.join(' ');
+	}
 
-	// votre code ici
-	return phrase.charAt(0).toUpperCase() + phrase.slice(1);
+	return firstletter(phrase);
 }
 
 module.exports = test;
