@@ -7,6 +7,9 @@ function test() {
 	const tableau = [1, 2, 5, 9, 10, 15, 20, 25];
 
 	// votre code ici
+
+	return tableau.filter((n) => n>=10);
+
 }
 
 module.exports = test;

@@ -7,6 +7,7 @@ function test() {
 	const tableau2 = ['four', 'five'];
 
 	// votre code ici
+	return tableau1.concat(tableau2);
 }
 
 module.exports = test;

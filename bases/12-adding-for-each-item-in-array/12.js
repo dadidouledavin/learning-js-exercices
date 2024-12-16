@@ -7,6 +7,7 @@ function test() {
 	const tableau = [1, 2, 3, 4];
 
 	// votre code ici
+	return tableau.map((a) => a + 1);
 }
 
 module.exports = test;

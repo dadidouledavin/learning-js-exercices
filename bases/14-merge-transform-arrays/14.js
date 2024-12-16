@@ -14,6 +14,7 @@ function test() {
 	];
 
 	// votre code ici
+	return tableau1.concat(tableau2).join(' ');
 }
 
 module.exports = test;

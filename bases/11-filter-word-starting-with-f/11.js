@@ -7,6 +7,8 @@ function test() {
 	const tableau = ['fiche', 'faire', 'verre', 'ballon', 'faisan', 'forêt'];
 
 	// votre code ici
+	return tableau.filter((n) => !n.startsWith('f')).sort();
+	
 }
 
 module.exports = test;
