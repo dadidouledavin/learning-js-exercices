@@ -35,6 +35,19 @@ function test() {
     },
   ];
 
+  return films
+    .map(function (item) {
+      item.note = Number(item.note);
+      return item;
+    })
+    .map(function (item) {
+      item.note = item.note * 2;
+      return item;
+    })
+    .sort(function (a, b) {
+      return b.note - a.note;
+    });
+
   /* Le résultat doit être de la manière suivante : [
         {
             nom: 'Les razmokets',

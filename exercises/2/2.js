@@ -7,6 +7,7 @@ function test() {
 
   // Le résultat doit être de la manière suivante : 'shen nidalee ryze sivir alistar'
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat >"
+  return champions.join(' ');
 }
 
 module.exports = test;

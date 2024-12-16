@@ -25,7 +25,7 @@ function test() {
 
 	// votre code ici
 	function recup (auteurs) {
-		return auteurs.filter((auteur) => !auteur.readingStatus) . auteurs.map((auteur) => auteur.readingStatus);
+		return auteurs.filter((auteur) => !auteur.readingStatus).map((auteur) => auteur.author);
 	}
 
 	return recup(library);

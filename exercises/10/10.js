@@ -32,6 +32,8 @@ function test() {
     },
   ];
 
+  
+
   /* Le résultat doit être de la manière suivante : 8*/
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
 }

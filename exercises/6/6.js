@@ -39,6 +39,16 @@ function test() {
     },
   ];
 
+  return films
+    .filter(function(item) {
+      return item.note > 3 && item.tags.indexOf('sf') !== -1; 
+    })
+    .sort(function(a, b){
+      return a.note - b.note;
+    })
+    .map(function(item){
+      return item.nom;
+    })
   // Le résultat doit être de la manière suivante : ['Matrix','Star wars - 1 ère trilogie']
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
 }

@@ -40,6 +40,11 @@ function test() {
     tags: ['fantaisie', 'forêt', 'piedspoilus'],
   };
 
+  return films.some(function(item){
+    return item.nom === nouveauFilm.nom;
+  })
+
+
   // Le résultat doit être de la manière suivante : true
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
 }

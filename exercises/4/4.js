@@ -14,6 +14,11 @@ function test() {
     ],
     bilbon = 'Bilbon Sacquet';
 
+    if (!compte.indexOf('Fredon Sacquet')) {
+      compte.push(bilbon);
+    }
+    return compte;
+
   // Le résultat doit être de la manière suivante : ['Frodon Sacquet','Samsagace Gamegie','Meriadoc Brandebouc','Peregrin Touque', 'Bilbon Sacquet']
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
 }

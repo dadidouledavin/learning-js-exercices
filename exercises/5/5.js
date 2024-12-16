@@ -24,6 +24,14 @@ function test() {
     },
   ];
 
+  return youtubeGame
+    .sort(function (a, b) {
+      return b.abonnes - a.abonnes;
+    })
+    .map(function (item) {
+      return item.nom;
+    });
+
   // Le résultat doit être de la manière suivante : ['e-penser','Le fossoyeur de films','BenzaieTv','Dep MMI Le Puy']
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
 }

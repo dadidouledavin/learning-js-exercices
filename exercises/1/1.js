@@ -7,7 +7,7 @@ function test() {
   const equipeEnAttente = ['macree', 'hanzo', 'reinhardt'],
     herosARajouter = ['mercy', 'mei', 'tracer'];
 
-  return [];
+  return equipeEnAttente.concat(herosARajouter);
 
   // Le résultat doit être de la manière suivante : ['macree', 'hanzo', 'reindhardt', 'mercy', 'mei', 'tracer']
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat >"

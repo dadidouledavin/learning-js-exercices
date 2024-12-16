@@ -19,6 +19,11 @@ function test() {
     },
   ];
 
+  return persons.map(function(item){
+    item.fullname = item.firstname + ' ' + item.lastname;
+    return item;
+  });
+
   /* Le résultat doit être de la manière suivante : [
         {
             firstname: 'Jon',

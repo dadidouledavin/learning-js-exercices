@@ -8,6 +8,12 @@ function test() {
 
   // Le résultat doit être de la manière suivante : 'Shen Nidalee Ryze Sivir Alistar'
   // Envoyez votre résultat en faisant "return <variableContenantLeRésultat>"
+  return equipe 
+  .split(' ')
+  .map(function (nom) {
+    return nom.charAt(0).toUpperCase() + nom.slice(1);
+  })
+  .join(' ');
 }
 
 module.exports = test;
