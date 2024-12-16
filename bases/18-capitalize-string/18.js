@@ -6,6 +6,7 @@ function test() {
 	const phrase = 'the quick brown fox';
 
 	// votre code ici
+	return phrase.charAt(0).toUpperCase() + phrase.slice(1);
 }
 
 module.exports = test;

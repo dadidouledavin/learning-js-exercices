@@ -6,6 +6,7 @@ function test() {
 	const phrase = 'SKU213084,SKU39230,SKU343944,SKU29320394';
 
 	// votre code ici
+	return phrase.split(',');
 }
 
 module.exports = test;

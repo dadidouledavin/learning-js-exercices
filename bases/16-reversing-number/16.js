@@ -5,8 +5,15 @@ function test() {
 	// (oui vous pouvez créer une fonction à l'intérieur d'une fonction !)
 	// votre programme devrait retourner "483208323"
 	const nombre = 323802384;
+	function inverse(number) {
+
+		return number.toString().split('').reverse().join('');
+		
+	}
 
 	// votre code ici
+	return inverse(nombre);
+
 }
 
 module.exports = test;
